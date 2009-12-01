@@ -1,5 +1,5 @@
-﻿html, body {margin: 0;padding: 0; }body {color: #333;font: 12px Tahoma,Lucida Grande, sans-serif;margin: 9%;}a {color: #0055CC; }
-h2{font-family:Verdana;font-size:21px;font-size-adjust:none;font-style:normal;font-variant:small-caps;font-weight:700;letter-spacing:2px;line-height:normal;padding-top:50px;margin:0 auto;width:528px;}
+﻿html, body {margin: 0;padding: 0; }body {color: #333;font: 12px Tahoma,Lucida Grande, sans-serif;margin: 5%;}a {color: #0055CC; }
+h2{font-family:Verdana;font-size:21px;font-size-adjust:none;font-style:normal;font-variant:small-caps;font-weight:700;letter-spacing:2px;line-height:normal;padding-top:30px;margin:0 auto;width:528px;}
 .loading{width:16px;height:16px;display:block;background:url(../images/loading.gif) no-repeat;text-indent:-9999em;}
 #formbox{background-color:#FFFBF5;border:2px solid #FFCF96;height:auto !important;margin:40px auto;min-height:150px;padding:10px 20px;width:488px;}
 #statusBar label{font-family:"Lucida Sans","Lucida Sans Unicode","Lucida Grande",Verdana,Arial,Helvetica,sans-serif;font-size:14px;font-weight:bold;}
