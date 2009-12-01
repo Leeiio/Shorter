@@ -1,0 +1,16 @@
+﻿html, body {margin: 0;padding: 0; }body {color: #333;font: 12px Tahoma,Lucida Grande, sans-serif;margin: 9%;}a {color: #0055CC; }
+h2{font-family:Verdana;font-size:21px;font-size-adjust:none;font-style:normal;font-variant:small-caps;font-weight:700;letter-spacing:2px;line-height:normal;padding-top:50px;margin:0 auto;width:528px;}
+.loading{width:16px;height:16px;display:block;background:url(../images/loading.gif) no-repeat;text-indent:-9999em;}
+#formbox{background-color:#FFFBF5;border:2px solid #FFCF96;height:auto !important;margin:40px auto;min-height:150px;padding:10px 20px;width:488px;}
+#statusBar label{font-family:"Lucida Sans","Lucida Sans Unicode","Lucida Grande",Verdana,Arial,Helvetica,sans-serif;font-size:14px;font-weight:bold;}
+#tip {color:#777777;display:block;font-family:'Georgia','Serif';font-size:16pt;position:absolute;right:23px;top:0;}
+#statusBar {line-height:1.9em;position:relative;}
+#textbox{font-family:'Lucida Grande',sans-serif;font-size:14.8px;font-size-adjust:none;font-stretch:normal;font-style:normal;font-variant:normal;font-weight:normal;height:50px;line-height:1.1;margin-top:3px;min-height:50px;overflow:auto;padding:5px;width:474px;}
+#submit_btn{background:#3E97FF none repeat scroll 0 0;border:2pt solid #005EA3;color:#fff;font-size:14px;font-weight:bold;height:32px;margin-left:3px;width:115px;font-family:inherit;}
+#errortip{float:left;height:37px;line-height:37px;color:#ff0000;}
+#statusButton {float:right;height:37px;padding-right:27px;padding-top:5px;}
+#intro{clear:both;}
+#intro ol{list-style-type:decimal;margin:0;padding:0 0 0 30px;}
+#intro ol li{line-height:25px;}
+#copyright{margin:0 auto;width:528px;text-align:center;}
+#copyright p{padding:0 0 5px 0;margin:0;}
