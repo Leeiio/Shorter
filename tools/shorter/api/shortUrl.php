@@ -8,8 +8,9 @@
 $urls = array();
 $get_long_urls = array();
 $get_api = 'http://is.gd/api.php?longurl=';
-$long_urls = substr($_GET['long_urls'],0,-1);
-$urls = explode("|",$long_urls);
+//$long_urls = substr($_GET['long_urls'],0,-1);
+$long_urls = substr($_GET['long_urls'],0,-11);
+$urls = explode("leeiiosplit",$long_urls);
 
 $long_urls_len = count($urls);
 
