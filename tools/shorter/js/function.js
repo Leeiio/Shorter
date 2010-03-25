@@ -49,14 +49,13 @@ function shortUrlDisplay(){
 				regexp2=/(http:\/\/is.gd\/[a-z_A-Z0-9]+)|(http:\/\/bit.ly\/[a-z_A-Z0-9]+)/g;
 				match_short = str[idx].match(regexp2);				
 				if(!match_short){		
-					l_urls+=str[idx]+"leeiiosplit"					
+					l_urls+=str[idx]+"|";					
 				}else document.getElementById('errortip').innerHTML = "文本框中没有找到任何需要被缩短的URL！";
 				match_short = null;
 			}	
 			if(l_urls != ""){	
 				document.getElementById('tip').innerHTML = "<span class='loading'>Loading...</span>";	
-				l_urls = encodeURIComponent(l_urls);
-                $.get("api/shortUrl.php",{ long_urls: l_urls },function(data){
+                $.post("api/shortUrl.php",{ long_urls: l_urls },function(data){
 		getShortUrl(data);
   });			
 			}
@@ -75,7 +74,7 @@ function getShortUrl(res)
 		part = url_arry[i].split('|');
 		if(part.length == 2){
 			s_url = part[0];
-			l_url = decodeURIComponent(part[1]);
+			l_url = part[1];
 		}
 
 		if(s_url.indexOf('http://is.gd') > -1){
